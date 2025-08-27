@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-st.title("📚 RAG-Powered Document Chatbot")
+st.title("📚 RAG-Powered PDF Chatbot")
 
 # Sidebar for file upload
 st.sidebar.header("Upload Document")
