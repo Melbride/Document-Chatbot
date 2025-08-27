@@ -75,16 +75,11 @@ rag-chatbot/
 4. **Answer Generation**: Uses Mistral AI to generate contextual responses
 5. **Interactive Interface**: Streamlit provides chat-like experience
 
-## API Costs
-
-- Uses Mistral AI API (pay-per-use)
-- Mistral Small model: ~$0.002 per 1K tokens
-- Very affordable for typical usage
 
 ## Limitations
 
 - Currently supports PDF files only
-- Retrieval based on keyword matching (not semantic search)
+- Retrieval based on keyword matching 
 - Requires internet connection for Mistral API calls
 
 ## License

@@ -125,3 +125,5 @@ if st.session_state.document_text:
         st.session_state.messages.append({"role": "assistant", "content": response})
 else:
     st.info("Please upload a PDF document to start chatting!")
+
+    
